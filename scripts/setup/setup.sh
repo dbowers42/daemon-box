@@ -8,4 +8,4 @@ source ~/.bash_profile
 rbenv install -v 2.4.2
 rbenv global 2.4.2
 
-gem install bundler
+gem install bundler sinatra

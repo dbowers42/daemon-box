@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
     vb.memory = "4096"
   end
 
-  config.vm.provision "shell", path: "scripts/install/bootstrap.sh"
+  config.vm.provision "shell", path: "scripts/install/install.sh"
   config.vm.synced_folder "./src", "/home/vagrant/src"
   config.ssh.forward_agent = true
 end
